@@ -2,16 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #e4e6da;
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #c2ceb5;
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    color: #49664f;
 }
 
 main {
@@ -22,15 +24,16 @@ main {
 }
 
 .perguntas {
-    background-color: #f7f7f7;
+    background-color: #8aa88a;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #49664f;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .perguntas h2 {
     margin-top: 0;
+    color: #25342b;
 }
 
 .perguntas ul {
@@ -45,17 +48,17 @@ main {
 
 .perguntas a {
     text-decoration: none;
-    color: #337ab7;
+    color: #25342b;
 }
 
 .perguntas a:hover {
-    color: #23527c;
+    color: #49664f;
 }
 
 .respostas {
-    background-color: #f7f7f7;
+    background-color: #8aa88a;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #49664f;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -63,10 +66,14 @@ main {
 .resposta {
     margin-bottom: 20px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #49664f;
     display: none;
 }
 
 .resposta:target {
     display: block;
+}
+
+.resposta h3 {
+    color: #25342b;
 }

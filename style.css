@@ -1,25 +1,47 @@
-```
+/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
+.background {
+    background-image: linear-gradient(to bottom, #000, #333); /* Fundo preto */
+}
+
+/* Estilos do cabeçalho */
+.cabeçalho {
+    background-color: #000; /* Preto */
+    color: #fff; /* Branco */
+    padding: 20px;
+    text-align: center;
+}
+
+.cabeçalho img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid #660033; /* Vermelho vinho */
+}
+
+/* Estilos do título */
 h1 {
-    color: #333;
-    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff; /* Branco */
+    margin-bottom: 20px;
 }
 
-h2 {
-    color: #666;
-    text-align: center;
-}
-
+/* Estilos do texto */
 p {
     font-size: 18px;
-    line-height: 24px;
-    text-align: justify;
+    color: #fff; /* Branco */
+    margin-bottom: 20px;
 }
 
+/* Estilos da lista */
 ul {
     list-style: none;
     padding: 0;
@@ -28,15 +50,35 @@ ul {
 
 li {
     font-size: 18px;
-    line-height: 24px;
-    text-align: justify;
+    color: #fff; /* Branco */
+    margin-bottom: 10px;
 }
 
+/* Estilos da imagem do grupo */
+img[src*="SKZ"] {
+    width: 50%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #660033; /* Vermelho vinho */
+}
+
+/* Estilos do link do Spotify */
 a {
     text-decoration: none;
-    color: #337ab7;
+    color: #fff; /* Branco */
 }
 
 a:hover {
-    color: #23527c;
+    color: #ccc; /* Branco mais claro */
+}
+
+/* Estilos do footer */
+footer {
+    background-color: #000; /* Preto */
+    color: #fff; /* Branco */
+    padding: 10px;
+    text-align: center;
+    clear: both;
 }

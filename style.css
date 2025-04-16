@@ -7,13 +7,13 @@ body {
 }
 
 .background {
-    background-image: linear-gradient(to bottom, #000, #333); /* Fundo preto */
+    background-image: linear-gradient(to bottom, #ffffcc, #ffff99); /* Fundo amarelo */
 }
 
 /* Estilos do cabeçalho */
 .cabeçalho {
-    background-color: #000; /* Preto */
-    color: #fff; /* Branco */
+    background-color: #ffffcc; /* Amarelo */
+    color: #333; /* Preto */
     padding: 20px;
     text-align: center;
 }
@@ -23,21 +23,21 @@ body {
     height: 100px;
     border-radius: 50%;
     margin: 0 auto;
-    border: 2px solid #660033; /* Vermelho vinho */
+    border: 2px solid #008000; /* Verde */
 }
 
 /* Estilos do título */
 h1 {
     font-size: 36px;
     font-weight: bold;
-    color: #fff; /* Branco */
+    color: #333; /* Preto */
     margin-bottom: 20px;
 }
 
 /* Estilos do texto */
 p {
     font-size: 18px;
-    color: #fff; /* Branco */
+    color: #333; /* Preto */
     margin-bottom: 20px;
 }
 
@@ -50,34 +50,24 @@ ul {
 
 li {
     font-size: 18px;
-    color: #fff; /* Branco */
+    color: #333; /* Preto */
     margin-bottom: 10px;
 }
 
-/* Estilos da imagem do grupo */
-img[src*="SKZ"] {
+/* Estilos da imagem do milho */
+img[src*="milho_parana"] {
     width: 50%;
     height: auto;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border: 2px solid #660033; /* Vermelho vinho */
-}
-
-/* Estilos do link do Spotify */
-a {
-    text-decoration: none;
-    color: #fff; /* Branco */
-}
-
-a:hover {
-    color: #ccc; /* Branco mais claro */
+    border: 2px solid #008000; /* Verde */
 }
 
 /* Estilos do footer */
 footer {
-    background-color: #000; /* Preto */
-    color: #fff; /* Branco */
+    background-color: #ffffcc; /* Amarelo */
+    color: #333; /* Preto */
     padding: 10px;
     text-align: center;
     clear: both;

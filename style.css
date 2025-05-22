@@ -1,79 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #e4e6da;
+.noticia {
+  background-color: #1a3523;
+  border-left: 5px solid #4ade80;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
 }
 
-header {
-    background-color: #c2ceb5;
-    padding: 20px;
-    text-align: center;
+.noticia h3 {
+  color: #bbf7d0;
+  margin-bottom: 10px;
 }
 
-header h1 {
-    margin: 0;
-    color: #49664f;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
-
-.perguntas {
-    background-color: #8aa88a;
-    padding: 20px;
-    border: 1px solid #49664f;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.perguntas h2 {
-    margin-top: 0;
-    color: #25342b;
-}
-
-.perguntas ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.perguntas li {
-    margin-bottom: 10px;
-}
-
-.perguntas a {
-    text-decoration: none;
-    color: #25342b;
-}
-
-.perguntas a:hover {
-    color: #49664f;
-}
-
-.respostas {
-    background-color: #8aa88a;
-    padding: 20px;
-    border: 1px solid #49664f;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.resposta {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid #49664f;
-    display: none;
-}
-
-.resposta:target {
-    display: block;
-}
-
-.resposta h3 {
-    color: #25342b;
+.fonte {
+  font-size: 0.9rem;
+  color: #9ca3af;
+  margin-top: 10px;
+  font-style: italic;
 }
